@@ -1,0 +1,119 @@
+<html>
+
+<head>
+    <style>
+        .cell1 {
+            background-color: #87ceea;
+            color: #cd1d13;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .fonttype1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20;
+        }
+
+        .cell2 {
+            background-color: #808080;
+        }
+
+        .cell3 {
+            background-color: #fa8071;
+        }
+    </style>
+
+    <title>Tabel Login</title>
+</head>
+
+<body>
+    <form>
+        <table border="3" align="center">
+            <tr class="cell1">
+                <th width="500" height="100">
+                    <h1>Pendaftaran Kursus</h1>
+                </th>
+            <tr>
+
+            <tr class="cell2">
+                <td height="350" valign="top" align="left">
+                    <p class="fonttype1"><b>Data Diri</b></p>
+                    <table>
+                        <tr>
+                            <td> Nama </td>
+                            <td> <input type="text" name="nama"> </td>
+                        </tr>
+                        <tr>
+                            <td>Nim</td>
+                            <td> <input type="number" name="Nim"> </td>
+                        </tr>
+                        <tr>
+                            <td> E-mail </td>
+                            <td> <input type="email" name="E-mail"> </td>
+                        </tr>
+                        <tr>
+                            <td> Tanggal Lahir</td>
+                            <td> <input type="date" name="Tanggal Lahir"> </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">Jenis Kelamin</td>
+                            <td>
+                                <input type="radio" name="Jenis Kelamin" value="Laki-Laki">
+                                <label for="Laki-Laki"> Laki-Laki</label> <br>
+                                <input type="radio" name="Jenis Kelamin" value="Perempuan">
+                                <label for="Perempuan"> Perempuan</label> <br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">Pilih Program Kursus</td>
+                            <td>
+                                <input type="checkbox" name="Program Khusus" value="C#">
+                                <label for="C#"> C#</label><br>
+                                <input type="checkbox" name="Program Khusus" value="Java">
+                                <label for="Java"> Java</label> <br>
+                                <input type="checkbox" name="Program Khusus" value="SQL">
+                                <label for="SQL"> SQL</label> <br>
+                                <input type="checkbox" name="Program Khusus" value="HTML dan PHP">
+                                <label for="HTML dan PHP"> HTML dan PHP</label> <br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pilihan Hari/Jam Kursus</td>
+                            <td> <select name="Hari/Jam Kursus">
+                                    <option value="Senin - Rabu/09.00 - 11.00">Senin - Rabu/09.00 - 11.00</option>
+                                    <option value="Kamis - Jumat/09.00 - 15.00">Kamis - Jumat/09.00 - 15.00</option>
+                                    <option value="Sabtu/09.00 - 21.00"> Sabtu/09.00 - 21.00 </option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr class="cell3">
+                <td height="150" valign="top" align="left"> Komentar Anda
+                    <table>
+
+                        <tr>
+                            <td>
+                                <textarea name="" id="" cols="50" rows="5"></textarea>
+                                
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="Reset" value="Reset" name="Reset" id="">
+                                <input type="Submit" value="Submit" name="Submit" id="">
+                                <input type="Button" value="Cancel" name="Cancel" id="">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+
+        </table>
+    </form>
+</body>
+
+</html>
